@@ -1,0 +1,15 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 0
+Partial: 0
+Failed: 0
+Success rate: NaN%        Accuracy: NaN%
+=============================================
+
+Mixin method com/moulberry/axiom/mixin/render/MixinEffectInstance fixId(Ljava/lang/String;Lnet/minecraft/server/packs/resources/ResourceProvider;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+  >> Using org.sinytra.adapter.patch.transformer.operation.DisableMixin
+     - Remove mixin method
+
+Mixin method com/moulberry/axiom/mixin/render/MixinEffectInstance fixPath(Ljava/lang/String;Lnet/minecraft/server/packs/resources/ResourceProvider;Lcom/mojang/blaze3d/shaders/Program$Type;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+  >> Using org.sinytra.adapter.patch.transformer.operation.DisableMixin
+     - Remove mixin method
+
